@@ -1,0 +1,8 @@
+** GWFisherMatrix README **
+** Eric Addison **
+
+This repo contains a set of codes used to generate the Fisher Information matrix for the gravitational waveform from an inspiralling compact object binary system to 3.5PN order in phase. The underlying PN expansion is based on work from Arun et al, PhysRevD 71, 084008 (2005).
+
+This code is the initial phase of a research project to explore the observability of the so-called "mass gap" that has appeared in the current observed CO mass distribution between ~2M_sun and 5M_sun. This research is on hold for the moment as it will not be included in my dissertation.
+
+The code is implemented in C++ with primary classes Fisher, noise_curve, and GW_Bin_Insp, all of which are inlcuded in namespace GravWave. Additionally, this code makes use of a handful of wrapper classes I wrote for implementing GSL (GNU Scientific Library) functionlity in C++.
